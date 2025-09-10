@@ -1,10 +1,17 @@
-const Contenedor=({className, children})=>{
-    return(
-
-    <div className={`h-[600px] w-[400px] rounded-lg p-[16px] shadow ${className}`}>
-        {children}
-    </div>
-
+const Contenedor = ({ className, children }) => {
+    return (
+        <div
+            className={` 
+            w-[400px]
+            h-[540px]
+            rounded-lg
+            p-[16px]
+            shadow
+            mb-5
+            ${className}`}
+        >
+            {children}
+        </div>
     )
 }
 
